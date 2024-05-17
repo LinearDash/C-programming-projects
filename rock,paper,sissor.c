@@ -11,6 +11,7 @@ int main(){
     do
     {
        int player_vlaue, computer_value;
+<<<<<<< HEAD
        printf("For rock(1) \nFor paper(2) \nFor sissor(3) \nPick One:");
        scanf("%d",&player_vlaue);
        player_vlaue = player_vlaue-1 ;
@@ -22,6 +23,12 @@ int main(){
           printf("Computer picked paper\n");
          }else printf("Computer picked sissor\n");
           
+=======
+       printf("For rock(0) \nFor paper(1) \nFor sissor(2) \nPick One:");
+       scanf("%d",&player_vlaue);
+
+     computer_value = rand()% 3;
+>>>>>>> 978036d5f6468d1533854d2e18d1bf8415b061cf
      if (computer_value==player_vlaue)
      {printf("It,s a tie\n");}
      else if (computer_value==0 && player_vlaue==1 ||
