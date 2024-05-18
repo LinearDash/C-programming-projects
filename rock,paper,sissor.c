@@ -1,3 +1,4 @@
+//This project was done with the help of a refrence
 #include<stdio.h>
 #include <stdlib.h> 
 #include<time.h>
