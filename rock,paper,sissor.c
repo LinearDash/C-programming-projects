@@ -28,10 +28,7 @@ int main()
     else
       printf("Computer picked sissor\n");
 
-    printf("For rock(0) \nFor paper(1) \nFor sissor(2) \nPick One:");
-    scanf("%d", &player_vlaue);
-
-    computer_value = rand() % 3;
+    
     if (computer_value == player_vlaue)
     {
       printf("It,s a tie\n");
